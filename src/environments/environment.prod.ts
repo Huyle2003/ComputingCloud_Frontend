@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiUrl: 'http://localhost:8080/api/',
+    apiUrl: 'https://computingcloud-backend.onrender.com/api/',
     firebaseConfig : {
         apiKey: "AIzaSyBcXApf_pkg0FQ8EfAbgxvPE2DIzXqkkR8",
         authDomain: "quanlyvattuyte-d0f6d.firebaseapp.com",

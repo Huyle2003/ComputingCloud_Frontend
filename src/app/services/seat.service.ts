@@ -8,7 +8,7 @@ import { SeatInfoResponse } from '../model/SeatInfoResponse';
   providedIn: 'root'
 })
 export class SeatService {
-  private baseUrl = 'http://localhost:8080/api/ghe';
+  private baseUrl = 'https://computingcloud-backend.onrender.com/api/ghe';
 
   constructor(private http: HttpClient) { }
 

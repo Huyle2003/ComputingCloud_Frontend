@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:8080/api/auth/login';
+  private apiUrl = 'https://computingcloud-backend.onrender.com/api/login';
 
   constructor(private http: HttpClient) {}
   private user: any = null;

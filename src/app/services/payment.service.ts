@@ -15,7 +15,7 @@ export interface TicketHistory {
   providedIn: 'root'
 })
 export class PaymentService {
-  private baseUrl = 'http://localhost:8080/api';
+  private baseUrl = 'https://computingcloud-backend.onrender.com/api';
 
   constructor(private http: HttpClient) { }
 

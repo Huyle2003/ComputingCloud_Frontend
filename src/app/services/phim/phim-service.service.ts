@@ -11,10 +11,10 @@ import { ILichChieu } from '../../model/phim/ILichChieu';
 })
 export class PhimServiceService {
 
-  private apiUrlPhong = 'http://localhost:8080/api/phong';
-  private apiUrlGhe = 'http://localhost:8080/api/ghe';
-  private apiUrlPhim = 'http://localhost:8080/api/phim';
-  private apiUrlLichchieu = 'http://localhost:8080/api/lichchieu';
+  private apiUrlPhong = 'https://computingcloud-backend.onrender.com/api/phong';
+  private apiUrlGhe = 'https://computingcloud-backend.onrender.com/api/ghe';
+  private apiUrlPhim = 'https://computingcloud-backend.onrender.com/api/phim';
+  private apiUrlLichchieu = 'https://computingcloud-backend.onrender.com/api/lichchieu';
 
 
   constructor(private http: HttpClient) { }

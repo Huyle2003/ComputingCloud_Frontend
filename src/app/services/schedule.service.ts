@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ScheduleService {
-  private baseUrl = 'http://localhost:8080/api/ghe'; // Điều chỉnh URL backend của bạn
+  private baseUrl = 'https://computingcloud-backend.onrender.com/api/ghe'; // Điều chỉnh URL backend của bạn
 
   constructor(private http: HttpClient) { }
 

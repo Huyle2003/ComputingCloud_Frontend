@@ -7,7 +7,7 @@ import { IPhim } from '../model/phim/IPhim';
   providedIn: 'root'
 })
 export class MovieService {
-  private baseUrl = 'http://localhost:8080/api/phim';
+  private baseUrl = 'https://computingcloud-backend.onrender.com/api/phim';
 
   constructor(private http: HttpClient) { }
 
